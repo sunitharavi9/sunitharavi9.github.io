@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ML Interview Question Bank | Selvan Sunitha Ravi</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="ML Interview Question Bank" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. Rohan and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year." />
+<meta property="og:description" content="Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. Rohan and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year." />
+<link rel="canonical" href="http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html" />
+<meta property="og:site_name" content="Selvan Sunitha Ravi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-04-28T19:14:52-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ML Interview Question Bank" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-28T19:14:52-07:00","datePublished":"2023-04-28T19:14:52-07:00","description":"Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. Rohan and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year.","headline":"ML Interview Question Bank","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html"},"url":"http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Selvan Sunitha Ravi" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Selvan Sunitha Ravi</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">ML Interview Question Bank</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2023-04-28T19:14:52-07:00" itemprop="datePublished">Apr 28, 2023
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. <a href="https://rohankumar.github.io/">Rohan</a> and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year.</p>
+
+<h3 id="questions">Questions</h3>
+
+<h4 id="general">General</h4>
+
+<ol>
+  <li>What is bias-variance tradeoff? Which models exbhibit low variance?</li>
+  <li>How can we avoid underfitting and overfitting?</li>
+  <li>How do you deal with imbalanced data?</li>
+  <li>What is the difference between L1 and L2 regularisation? Why does L1 drive weights to zero?</li>
+  <li>Why do we use batchnorm?</li>
+  <li>What is the difference between SGD and GD?</li>
+  <li>Compare Momentum, RMSProp, Adagrad and Adam.</li>
+  <li>How do you decide between standardization and normalization?</li>
+  <li>What is the reparameterization trick?</li>
+  <li>What is Xavier init and why do we use it?</li>
+  <li>When no. of features is greater than number of  examples, why do we not have a unique solution to minimize the residual sum of squares?</li>
+  <li>What is inductive bias?</li>
+  <li>How can we reduce the dimensionality of a large dataset? (PCA)</li>
+  <li>Express the bias variance decomposition as MSE loss.</li>
+  <li>What is the effect of batch size on training?</li>
+</ol>
+
+<h4 id="models">Models</h4>
+<ol>
+  <li>What are the drawbacks of K-means algorithm?</li>
+  <li>How can you choose the optimal k for K-means?</li>
+  <li>In KNN, if k=1, does it have high variance or bias?</li>
+  <li>Compare bagging and boosting methods.</li>
+  <li>What is weakly supervised learning?</li>
+  <li>What are the basic assumptions to be made for linear regression?</li>
+  <li>Why would we not pass ordinal values to a model for categories?</li>
+  <li>What is the Kernel trick for SVMs?</li>
+  <li>How do you do dropout in RNNs? How does it work during test time?</li>
+  <li>What are the assumptions we make for Naive Bayes algorithm?</li>
+  <li>What is the difference between Naive Bayes and Logistic Regression?</li>
+  <li>In linear regression, why do we use sum of squares?</li>
+  <li>What is the gradient boosting algorithm? Difference between Gradient boosted Decision Trees and Random Forests?</li>
+  <li>What is the difference between SVMs and Logistic Regression? Write down the loss functions.</li>
+  <li>What is the difference between Collaborative and content based filtering?</li>
+</ol>
+
+<h4 id="evaluation">Evaluation</h4>
+<ol>
+  <li>What is Type I and Type II error?</li>
+  <li>What is precision, recall, F1 and ROC curve?</li>
+  <li>How do you do k-fold validation for time series data?</li>
+  <li>How do we evaluate multi-label classification problems?</li>
+</ol>
+
+<h3 id="useful-references">Useful References:</h3>
+<ol>
+<li> Chip Huyen's <a href="https://huyenchip.com/ml-interviews-book/">book</a> on ML interviews gives a comprehensive overview of the interview process. </li>
+
+<li> Patrick Halina has a really good <a href="http://patrickhalina.com/posts/ml-systems-design-interview-guide/#ml-systems-questions">Systems Design guide</a>. I have used this as a reference for every System Design interview I have ever done. </li>
+
+<li> CS 229 <a href="https://stanford.edu/~shervine/teaching/cs-229/"> Cheatsheets </a> are useful for a quick revision of concepts. </li>
+
+<li> If you are interviewing for NLP roles, I would recommend reading the <a href="https://arxiv.org/abs/1810.04805">BERT paper </a> and <a href="https://arxiv.org/abs/1706.03762"> Transformer paper </a>before the interview. </li>
+
+
+
+
+
+
+<!-- Jekyll also offers powerful support for code snippets:
+
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
+</ol>
+
+  </div><a class="u-url" href="/jekyll/update/2023/04/28/ml-interview.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Selvan Sunitha Ravi</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Selvan Sunitha Ravi</li><li><a class="u-email" href="mailto:sunitha98selvan@gmail.com">sunitha98selvan@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.twitter.com/sunitha_selvan"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">sunitha_selvan</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Personal Website</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

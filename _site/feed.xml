@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-28T22:47:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Selvan Sunitha Ravi</title><subtitle>Personal Website</subtitle><entry><title type="html">ML Interview Question Bank</title><link href="http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html" rel="alternate" type="text/html" title="ML Interview Question Bank" /><published>2023-04-28T19:14:52-07:00</published><updated>2023-04-28T19:14:52-07:00</updated><id>http://localhost:4000/jekyll/update/2023/04/28/ml-interview</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/04/28/ml-interview.html">&lt;p&gt;Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. &lt;a href=&quot;https://rohankumar.github.io/&quot;&gt;Rohan&lt;/a&gt; and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year.&lt;/p&gt;
+
+&lt;h3 id=&quot;questions&quot;&gt;Questions&lt;/h3&gt;
+
+&lt;h4 id=&quot;general&quot;&gt;General&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What is bias-variance tradeoff? Which models exbhibit low variance?&lt;/li&gt;
+  &lt;li&gt;How can we avoid underfitting and overfitting?&lt;/li&gt;
+  &lt;li&gt;How do you deal with imbalanced data?&lt;/li&gt;
+  &lt;li&gt;What is the difference between L1 and L2 regularisation? Why does L1 drive weights to zero?&lt;/li&gt;
+  &lt;li&gt;Why do we use batchnorm?&lt;/li&gt;
+  &lt;li&gt;What is the difference between SGD and GD?&lt;/li&gt;
+  &lt;li&gt;Compare Momentum, RMSProp, Adagrad and Adam.&lt;/li&gt;
+  &lt;li&gt;How do you decide between standardization and normalization?&lt;/li&gt;
+  &lt;li&gt;What is the reparameterization trick?&lt;/li&gt;
+  &lt;li&gt;What is Xavier init and why do we use it?&lt;/li&gt;
+  &lt;li&gt;When no. of features is greater than number of  examples, why do we not have a unique solution to minimize the residual sum of squares?&lt;/li&gt;
+  &lt;li&gt;What is inductive bias?&lt;/li&gt;
+  &lt;li&gt;How can we reduce the dimensionality of a large dataset? (PCA)&lt;/li&gt;
+  &lt;li&gt;Express the bias variance decomposition as MSE loss.&lt;/li&gt;
+  &lt;li&gt;What is the effect of batch size on training?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;models&quot;&gt;Models&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;What are the drawbacks of K-means algorithm?&lt;/li&gt;
+  &lt;li&gt;How can you choose the optimal k for K-means?&lt;/li&gt;
+  &lt;li&gt;In KNN, if k=1, does it have high variance or bias?&lt;/li&gt;
+  &lt;li&gt;Compare bagging and boosting methods.&lt;/li&gt;
+  &lt;li&gt;What is weakly supervised learning?&lt;/li&gt;
+  &lt;li&gt;What are the basic assumptions to be made for linear regression?&lt;/li&gt;
+  &lt;li&gt;Why would we not pass ordinal values to a model for categories?&lt;/li&gt;
+  &lt;li&gt;What is the Kernel trick for SVMs?&lt;/li&gt;
+  &lt;li&gt;How do you do dropout in RNNs? How does it work during test time?&lt;/li&gt;
+  &lt;li&gt;What are the assumptions we make for Naive Bayes algorithm?&lt;/li&gt;
+  &lt;li&gt;What is the difference between Naive Bayes and Logistic Regression?&lt;/li&gt;
+  &lt;li&gt;In linear regression, why do we use sum of squares?&lt;/li&gt;
+  &lt;li&gt;What is the gradient boosting algorithm? Difference between Gradient boosted Decision Trees and Random Forests?&lt;/li&gt;
+  &lt;li&gt;What is the difference between SVMs and Logistic Regression? Write down the loss functions.&lt;/li&gt;
+  &lt;li&gt;What is the difference between Collaborative and content based filtering?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;evaluation&quot;&gt;Evaluation&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;What is Type I and Type II error?&lt;/li&gt;
+  &lt;li&gt;What is precision, recall, F1 and ROC curve?&lt;/li&gt;
+  &lt;li&gt;How do you do k-fold validation for time series data?&lt;/li&gt;
+  &lt;li&gt;How do we evaluate multi-label classification problems?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;useful-references&quot;&gt;Useful References:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt; Chip Huyen&apos;s &lt;a href=&quot;https://huyenchip.com/ml-interviews-book/&quot;&gt;book&lt;/a&gt; on ML interviews gives a comprehensive overview of the interview process. &lt;/li&gt;
+
+&lt;li&gt; Patrick Halina has a really good &lt;a href=&quot;http://patrickhalina.com/posts/ml-systems-design-interview-guide/#ml-systems-questions&quot;&gt;Systems Design guide&lt;/a&gt;. I have used this as a reference for every System Design interview I have ever done. &lt;/li&gt;
+
+&lt;li&gt; CS 229 &lt;a href=&quot;https://stanford.edu/~shervine/teaching/cs-229/&quot;&gt; Cheatsheets &lt;/a&gt; are useful for a quick revision of concepts. &lt;/li&gt;
+
+&lt;li&gt; If you are interviewing for NLP roles, I would recommend reading the &lt;a href=&quot;https://arxiv.org/abs/1810.04805&quot;&gt;BERT paper &lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/abs/1706.03762&quot;&gt; Transformer paper &lt;/a&gt;before the interview. &lt;/li&gt;
+
+
+
+
+
+
+&lt;!-- Jekyll also offers powerful support for code snippets:
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/ --&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Having recently spent a good portion of my time interviewing with companies for ML roles, I realised that I couldn’t find a comprehensive list of topics or questions to go through before any ML interview. Rohan and I compiled this list of questions and references as we interviewed with numerous companies for the second half of last year.</summary></entry></feed>
